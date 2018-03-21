@@ -1,0 +1,5 @@
+
+<launch>
+  <include file="$(find vrep_teleop)/launch/teleop_key.launch"/>
+  <node pkg="vrepscan_to_laserscan" name="vrepscan_to_laserscan_nodename" type="vrepscan_to_laserscan" output="screen"/>
+</launch>
